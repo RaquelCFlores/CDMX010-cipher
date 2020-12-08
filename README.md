@@ -339,3 +339,5 @@ Esta sección está para ayudarte a llevar una guia de lo que vas completando.
 * Cifra/descifra minúsculas
 * Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * Permite usar un `offset` negativo.
+
+## 10. 

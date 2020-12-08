@@ -1,0 +1,15 @@
+#principal {
+    background-color: #EB4F21 ;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    background-image: url(prueba-en-computadora-con-signos-de-interrogacion.svg);
+    background-image: url(cifrado.svg);
+    
+    color: white;
+    vertical-align: middle;
+    margin: 4%;
+    flex-direction: column-reverse;
+  }
+  
