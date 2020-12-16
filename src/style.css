@@ -1,15 +1,36 @@
 #principal {
-    background-color: #EB4F21 ;
+    background-color: #FED766;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     display: flex;
     align-items: center;
-    background-image: url(prueba-en-computadora-con-signos-de-interrogacion.svg);
-    background-image: url(cifrado.svg);
-    
-    color: white;
+    /*background-image: url(LogoApp.svg);*/
+    color: #3B0857 ;
     vertical-align: middle;
     margin: 4%;
     flex-direction: column-reverse;
+
+  }
+
+  #img{
+    display: flex;
+    /*margin-left: auto;*/
+    margin-right: 100px;
+    /*background-position: top;
+    margin: auto;*/
+    width: 100px;
+    height: 150px;
+    /*background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;*/    
   }
   
+  input{
+    font-size: 1em;
+    background-color: #B4DC7F;
+    padding: 10px;
+  }
+
+  p{
+    text-align: center;
+  }

@@ -340,4 +340,59 @@ Esta sección está para ayudarte a llevar una guia de lo que vas completando.
 * Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * Permite usar un `offset` negativo.
 
-## 10. 
+## 10. Seguimiento a mi proceso e información de App Web
+
+* Cifrado César
+
+Después de pensar varios días sobre la temática del producto, quise ir con lo más sencillo para poder avanzar y para mi lo más conveniente fue elegir algunas de las opciones de uso planteadas en el proyecto, lo enfoque al ámbito escolar ya que me parece interesante pensar en una aplicación que ayude a las escuelas a generar contraseñas seguras y no repetidas para que sus alumnos puedan ingresar a sus plataformas escolares.
+
+* Problemática: 
+El Colegio Ovidio Decroly, pide una aplicación que le permita generar contraseñas para su plantilla de alumnos, las cuales serán utilizadas para entrar a su plataforma escolar usando un usurio y contraseña, el requerimiento es que necesitan generar únicamente una contraseña segura para sus alumnos. 
+
+* Nombre del producto:SCHOOLPASWORD
+* Usuario:Docentes y personal administrativo del Colegio Ovidio DEcroly.
+* Objetivo: Generar contraseñas de manera fácil, segura y no repetidas para su plantilla de alumnos y con ella igresar a su plataforma escolar.
+* Aportación al usuario: Esta apliación va fácilitar la elaboración de contraseñas para sus alumnos, el proceso se hará más fácil, rápido, seguro y sobre todo no serán repetitivas.
+* Límitaciones: Por el momento sólo cumple con la opción de ingresar sólo mayúsculas.
+
+* Descarga:
+
+* Instalación:
+
+* Ejecución:
+
+* Introdución a aplicación: 
+La App Web SCHOOLPASWOORD es una herramienta de uso fácil, con un diseño agradable para el usuario y acorde al ámbito escolar de nivel primaria.Cuenta con una sola pantalla que te permite introcudir un número máximo de 10 carácteres para poder ser cifrados o descrifrados. El resultado de cualquier acción se muestra en un campo de texto diseñado para esa acción.
+
+* Funcionalidad: 
+Por el momento la funcionalidad de la aplicación se límita a introducir sólo mayúsculas, aunque si se introducen minúsculas estas se convierten a mayúsculas en el momento de realizar cifrado o descifrado.Es de fácil uso ya que cuenta con una sola pantalla en la que se realizan los dos precesos.
+
+* Decisiones del diseño: 
+Al realizar el prototipo no tenía claro como distribuir los botones y las cajas de texto que necesitaba ingresar, así que dibuje en papel dos posibles prototipos, uno más sencillo que el otro, opté por trabajar el más sencillo y sí me da tiempo podré mejorar el prototipo.
+
+* Proceso de Hacking: 
+El inicio del hacking fue complejo, ya que por comodidad, inicie a trabajar en Replit, lo cual me alejo de acostumbrarme a usar VSC y la transición fue un poco díficil. Comencé construyendo la parte visible de nuestra aplicación web, sólo lo que nos permita hacer pequeñas pruebas de funcionalidad.
+
+Para poder comenzar con la construcción de las funciones de cifrar y descifrar primero se investigo sobre el tema de Cifrado César y entendimiento de la formúla que permitiera hacer el recorrido del alfabeto. Después de esto construí mi función sólo para que cifrara una letra y cuando quedo ese punto pase a meterle un loop. Durante un feedback descubrí que mi función no realizaba el desplazamiento correcto, así que durante la tarde estuve trabajando en eso y logré resolver el problema parseando el valor ingresado en el offset. Cabe mencionar que el proceso de terminar la función de cifrado fue largo, me tarde mucho, me atore mucho porque no estaba declarando una variable.
+
+Para la función de descifrado el proceso fue mucha más rápido y fácil. Ya que sólo se modifico la función de cifrado con los cambios necesarios para que haga un retroceso en el alfabeto.
+
+En cuanto a los test también me tarde un poco ya que me daba temor entrarle al tema, pero con ayuda de Miriam Mtz, de mi Squad loque destrabar el tema y he logrado hacer mi primer test y añadir algunos cambios al git, este proceso aún continua.
+
+Aún sigue pendiente mi estructura HTML y CSS, quiero darle prioridad al test, git y agregar la funcionalidad de mayúsculas, también quiero terminar lo que tengo de README.
+
+También aún se tiene pendiente el TypeError.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,16 +5,21 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body id="principal">
-    <div id="root">
-    <h1>Cifrado César</h1>
-    <p>Bienvenido introduce la letra que quieres cifrar</p>
-     <input type="number" id="offset" placeholder="offset" min="0">
-     <input type="text" id="texto" placeholder="Introcude una letra" maxlength="10"> <br><br>
-     <button id="buttonCifrar" type="button">CIFRAR</button> <br><br>
-     <input type="text" id="cifrar" placeholder="letra cifrada"> <!--Aún no se muestra en la caja-->
+  
+  
+  <body id="principal"> <!--le damos un id para trabajar en CSS-->
+    <div id="root"> <!--tenemos este id para hacer un bloque-->
+    <p><img src="LogoApp.png"></p>
+      <br>
+    <h1><center>Cifrado César</center></h1> <!--Será el título de la app web-->
+    <p>Bienvenido introduce la letra que quieres cifrar</p> <!--Daremos una bienvenida e instrucciones breves-->
+     <input type="number" id="offset" placeholder="offset" min="0"> <!--pedimos el número de desplazamientos-->
+     <input type="text" id="texto" placeholder="Introcude una letra" maxlength="10"> <br><br> <!--caja de texto para ingresar el input a cifrar-->
+     <p><button id="buttonCifrar" type="button">CIFRAR</button> <!--creamos un botón para mandar a llamar la función cifrar-->
+     <button id ="buttonDescifrar" type="button">DESCIFRAR</button></p> <br><br><!--Creamos un botón para ejecutar la función descifrar-->
+     <input type="text" id="cifrar" placeholder="letra cifrada"> <!--Caja de texto para regresar el resultado del cifrado-->
      </div>
-      <br><span id = "cifrado"> </span>
+    
       <script src="index.js" type="module"></script>
   </body>      
  
